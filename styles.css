@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+/* navigation bar CSS */
+.logo img{
+    width: 87px;
+    padding-left: 27px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex; 
+    align-items: center; 
+
+}
+li{
+    /* display: inline; */
+    float: left;
+    display: flex;
+}
+
+body{
+    background-color: black;
+}
+
+.nav-items{
+    padding: 15px;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+}
+
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Play', 'sans-serif';
+    background-color: grey;
+}
+
+.search-bar{
+    padding-left: 40%; 
+}
+
+.search-here {
+    padding: 12px;
+    width: 15vw;
+    border-radius: 10vw;
+    background-color: rgb(120, 117, 117) ;
+}
+
+.fa-magnifying-glass{
+    margin: 15px 0;
+    size: 30px;
+}
+
+
+
+.search-bar {
+    padding-left: 30%;
+}
+
+
+/* MAIN BODY CONTENT CSS */
+
+.content{
+    color: white;
+    font-family: 'Play', 'sans-serif';
+}
+
+/* bootstrap */
+
+
+#introduction {
+    padding-right: 19vw;
+}
+.container{
+    padding-top: 27px;
+    padding-left: 2rem;
+    color: white;
+    font-family: 'Play', 'sans-serif'; ;
+}
+
+#our-reviews{
+    padding-top: 10vw;
+    margin: 20px;
+    padding: 20px; 
+}
+.carousel {
+    width:640px;
+    height:360px;
+    padding-left: 34px;
+    font-family: 'Play';
+}
+
+#s1{
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.First-box {
+    width:300px; 
+    float:left;  
+    height: 150px;
+    margin: 50px
+  }
+
+.Second-box {
+    width: 36vw;
+    height: 158px;
+    float: right;
+    margin: 50px;
+    padding-top: 7vw;
+    color: darkgrey;
+}
+
+.vision {
+    padding-top: 30vw;
+    padding-right: 40vw;
+    font-family: 'Play';
+    color: white;
+    padding-left: 4vw;
+}
+
+
+.products{
+    padding-top: 130px ;
+}
